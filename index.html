@@ -34,7 +34,7 @@
 
         <!-- Center: Main Content -->
         <div class="container">
-            <h1 class="title">❤️我們要結婚了！！❤️</h1>
+            <h1 class="title">❤️我們要結婚了！❤️</h1>
             
             <div class="input-section">
                 <div class="input-group">
@@ -53,18 +53,13 @@
                     <!-- Todo items will be dynamically added here -->
                 </div>
             </div>
-
-            <!-- Bottom: Total Cost Display -->
-            <div class="total-cost-footer">
-                <div class="total-cost-label">目前總共花費</div>
-                <div class="total-cost-amount" id="total-cost-display">0 元</div>
-            </div>
         </div>
 
         <!-- Right side: Cost Input -->
         <div class="cost-section">
             <div class="cost-header">
-                <label for="cost-input">專案經費成本</label>
+                <label for="cost-item">專案經費成本</label>
+                <input type="text" id="cost-item" placeholder="項目">
                 <input type="number" id="cost-input" placeholder="輸入金額" min="0" step="0.01">
                 <button id="add-cost-btn" class="add-cost-btn">新增</button>
             </div>
